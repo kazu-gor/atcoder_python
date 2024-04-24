@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  atcoder_pypy:
+    build: .
+    volumes:
+      - ./src/:/src
+    tty: true
